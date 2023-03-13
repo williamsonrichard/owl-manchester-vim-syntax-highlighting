@@ -6,7 +6,7 @@ syntax region manchesterIdentifier start="\(:.*:\)\|\(: \)"hs=e+1 end=" " end="$
 highlight link manchesterIdentifier Identifier
 syntax keyword manchesterIdentifierKeyword Individual Class DataProperty ObjectProperty nextgroup=manchesterIdentifier
 highlight link manchesterIdentifierKeyword Keyword
-syntax keyword manchesterKeyword AnnotationProperty Annotations Range Domain Characteristics or EquivalentTo some SubClassOf SubPropertyOf max min exactly only Types Facts SameAs DisjointWith DifferentFrom InverseOf Reflexive Irreflexive Symmetric Asymmetric Transitive HasKey SubPropertyChain o not EquivalentClasses DisjointClasses EquivalentProperties DisjointProperties SameIndividual DifferentIndividuals
+syntax keyword manchesterKeyword AnnotationProperty Annotations Range Domain Characteristics or EquivalentTo some SubClassOf SubPropertyOf max min exactly only Types Facts SameAs DisjointWith DifferentFrom InverseOf Reflexive Irreflexive Symmetric Asymmetric Transitive HasKey SubPropertyChain o not EquivalentClasses DisjointClasses EquivalentProperties DisjointProperties SameIndividual DifferentIndividuals that
 highlight link manchesterKeyword Keyword
 syntax region type start="xsd:" end=" " end="$"
 syntax region type start="rdfs:" end=" " end="$"
