@@ -15,7 +15,7 @@ syntax region type start="owl:" end=" " end="$"
 syntax region comment start="#" end="#" end="$"
 syntax keyword manchesterType Functional InverseFunctional
 highlight link manchesterType Type
-syntax keyword manchesterInclude Prefix Ontology
+syntax keyword manchesterInclude Prefix Ontology Import
 highlight link manchesterInclude Include
 syntax region special start="@" end=" " end="$"
 syntax region constant start='"' end='"' end="$"
